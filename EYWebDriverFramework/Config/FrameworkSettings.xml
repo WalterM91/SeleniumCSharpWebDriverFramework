@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FrameworkConfiguration>
+  <RunSettings>
+    <AUT>https://cjv2web.eyua.net/#/Projects/cfae01f4-7de7-4c48-a6f0-e7b11972e9c3/Project/Review</AUT>
+    <!--Possible flag Chrome, Firfox, IE-->
+    <Browser>Chrome</Browser>
+    <!--Possible flag Smoke, Regression, Unit-->
+    <TestType>SmokeTest</TestType>
+    <!--Possible flag Y, N-->
+    <IsLog>Y</IsLog>
+    <LogPath>..\..\..\Logs\</LogPath>
+    <DownloadPath>..\..\..\Downloads\</DownloadPath>
+    <TestResultsPath>..\..\..\TestResults\</TestResultsPath>
+    <ChromeProfilePath>..\..\..\ChromeUserProfile</ChromeProfilePath>
+    <BuildName>DemoBuild</BuildName>
+    <!--Possible flag Y, N-->
+    <IsReport>N</IsReport>
+    <UserName>EAutoTeam</UserName>
+    <!--Possible flag Selenium, SpecFlow-->
+    <Technology>Selenium</Technology>
+    <!--Possible flag Selenium, SpecFlow-->
+    <ApplicationDB>Data Source=Server;Initial Catalog=Employee;IntegratedS Security=True</ApplicationDB>
+  </RunSettings>
+  <EYDS>
+	  <DayAValue>10000</DayAValue>
+	  <DayBValue>20000</DayBValue>
+    <DayASuffix>_EydsDayA.xlsm</DayASuffix>
+    <DayBSuffix>_EydsDayB.xlsm</DayBSuffix>
+	  <ProcessTime>3600</ProcessTime>
+    <ReviewMaxProcessTime>300</ReviewMaxProcessTime>
+    <CalculationMaxProcessTime>600</CalculationMaxProcessTime>
+</EYDS>
+  <Timeouts>
+    <Implicit>60</Implicit>
+    <Explicit>660</Explicit>
+    <PageLoad>30</PageLoad>
+    <Process>600</Process>
+    <SleepIntervalInMillis>200</SleepIntervalInMillis>
+  </Timeouts>
+  <Threshold>
+    <Currency>0.0001</Currency>
+    <Percentage>0.0001</Percentage>
+  </Threshold>
+</FrameworkConfiguration>
